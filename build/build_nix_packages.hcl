@@ -1,6 +1,6 @@
 job "sleep" {
   type = "batch"
-  datacenters = ["dc1"]
+  datacenters = ["us-west-1e"]
   task "sleep" {
     driver = "raw_exec"
     config {
