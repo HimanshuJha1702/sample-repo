@@ -5,7 +5,7 @@ job "sleep" {
     driver = "raw_exec"
     config {
       command = "/bin/sleep"
-      args    = ["5"]
+      args    = ["20"]
     }
   }
 }
